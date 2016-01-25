@@ -1,0 +1,8 @@
+.gradle/
+.idea/
+gradle/
+*.iml
+gradlew
+gradlew.bat
+puzzle-232/build
+puzzle-227build
