@@ -1,3 +1,4 @@
 rootProject.name = 'codeeval-puzzles'
 include 'puzzle-232'
+include 'puzzle-231'
 
