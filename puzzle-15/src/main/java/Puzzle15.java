@@ -1,6 +1,6 @@
 import sun.misc.Unsafe;
 
-public class Puzzle14 {
+public class Puzzle15 {
     public static boolean isBigEndian() {
 
         boolean isBigEnd = false;
