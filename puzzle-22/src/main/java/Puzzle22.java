@@ -1,16 +1,15 @@
 public class Puzzle22 {
-    public static long fib(long aNumber) {
-        if (aNumber == 0) return 0;
-        if (aNumber == 1) return 1;
+    private CalculationStrategy strategy;
 
-        long[] fibs = new long[(int) aNumber + 1];
-        fibs[0] = 0;
-        fibs[1] = 1;
+    public Puzzle22() {
+        this.strategy = new DefaultCalculationStrategy();
+    }
 
-        for (int i = 2; i <= aNumber; i++) {
-            fibs[i] = fibs[i - 2] + fibs[i - 1];
-        }
+    public Puzzle22(CalculationStrategy theStrategy) {
+        this.strategy = theStrategy;
+    }
 
-        return fibs[(int) aNumber];
+    public long fib(long aNumber) {
+        return strategy.fib(aNumber);
     }
 }
