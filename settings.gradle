@@ -16,4 +16,6 @@ include 'puzzle-15'
 include 'puzzle-16'
 include 'puzzle-18'
 include 'puzzle-19'
+include 'antlr-demo'
+include 'puzzle-20'
 
