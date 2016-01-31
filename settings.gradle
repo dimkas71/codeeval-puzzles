@@ -20,4 +20,5 @@ include 'antlr-demo'
 include 'puzzle-20'
 include 'puzzle-21'
 include 'puzzle-22'
+include 'puzzle-23'
 
