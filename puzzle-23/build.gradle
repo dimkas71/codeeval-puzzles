@@ -3,12 +3,15 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'groovy'
+apply plugin: 'application'
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
+
+mainClassName = "Puzzle23"
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
