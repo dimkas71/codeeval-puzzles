@@ -1,0 +1,1 @@
+Solution of "Number pairs" problem from https://wwww.codeeval.com/browse/34/
