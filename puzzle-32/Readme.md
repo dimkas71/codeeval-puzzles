@@ -1,0 +1,1 @@
+Solution of "Trailing string" problem from https://wwww.codeeval.com/browse/32/
