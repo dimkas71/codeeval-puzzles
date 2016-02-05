@@ -15,7 +15,6 @@ public class Puzzle57 {
         ArrayList<Integer> list = new ArrayList<>();
 
         int leftEdge = 0, rightEdge = matrix.length - 1, upEdge = 0, downEdge = matrix.length - 1;
-        System.out.println(matrix.length);
 
         List<Direction> spiralDirections = Arrays.asList(
                 Direction.RIGHT,
@@ -27,7 +26,6 @@ public class Puzzle57 {
             for (Direction direction : spiralDirections) {
                 switch (direction) {
                     case RIGHT:
-                        System.out.println(String.format("lr->(%d %d); up->(%d, %d)", leftEdge, rightEdge, upEdge, downEdge));
                         if (canMove(leftEdge, rightEdge, upEdge, downEdge)) {
                             for (int i = leftEdge; i <= rightEdge ; i++) {
                                 list.add(matrix[upEdge][i]);
@@ -36,7 +34,6 @@ public class Puzzle57 {
                         }
                         break;
                     case DOWN:
-                        System.out.println(String.format("lr->(%d %d); up->(%d, %d)", leftEdge, rightEdge, upEdge, downEdge));
                         if (canMove(leftEdge, rightEdge, upEdge, downEdge)) {
                             for (int i = upEdge; i <= downEdge ; i++) {
                                 list.add(matrix[i][rightEdge]);
@@ -45,7 +42,6 @@ public class Puzzle57 {
                         }
                         break;
                     case LEFT:
-                        System.out.println(String.format("lr->(%d %d); up->(%d, %d)", leftEdge, rightEdge, upEdge, downEdge));
                         if (canMove(leftEdge, rightEdge, upEdge, downEdge)) {
                             for (int i = rightEdge; i >= leftEdge; i--) {
                                 list.add(matrix[downEdge][i]);
@@ -54,7 +50,6 @@ public class Puzzle57 {
                         }
                         break;
                     case UP:
-                        System.out.println(String.format("lr->(%d %d); up->(%d, %d)", leftEdge, rightEdge, upEdge, downEdge));
                         if (canMove(leftEdge, rightEdge, upEdge, downEdge)) {
                             for (int i = downEdge; i >= upEdge ; i--) {
                                 list.add(matrix[i][leftEdge]);

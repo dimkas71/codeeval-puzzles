@@ -20,8 +20,6 @@ class Puzzle57Spec extends Specification {
 
             int i = 0, j = 0
 
-            def isFirstCheck = true
-
             for (int k = 0; k < array.size(); k++) {
                 matrix[i][j] = Integer.parseInt(array[k])
                 j++
