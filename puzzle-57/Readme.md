@@ -1,0 +1,1 @@
+Solution of the problem "Spiral printing" from source https://codeeval.com/browse/57
