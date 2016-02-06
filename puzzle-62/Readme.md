@@ -1,0 +1,1 @@
+Solution for the "N mod M" problem. Description of it is on the site https://codeeval.com/browse/62
