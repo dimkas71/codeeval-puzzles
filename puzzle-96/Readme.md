@@ -1,0 +1,1 @@
+Add solution for the 'swap case' problem from site: https://www.codeeval.com/browse/96
