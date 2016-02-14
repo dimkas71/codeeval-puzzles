@@ -1,0 +1,1 @@
+Add solution for the problem 'Longest word'. See for details site: https://www.codeeval.com/browse/111

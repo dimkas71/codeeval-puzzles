@@ -1,0 +1,1 @@
+Solution for the problem 'Word to Digit'. For details see: https://www.codeeval.com/browse/104
