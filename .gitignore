@@ -46,6 +46,7 @@ puzzle-101/build
 puzzle-104/build
 puzzle-111/build
 puzzle-100/build
+out/
 antlr-demo/gen/
 antlr-demo/src/
 antlr-demo/build.gradle
