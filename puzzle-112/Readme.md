@@ -1,0 +1,1 @@
+Solution for the problem 'Swap elements'. For details see: https://www.codeeval.com/browse/112
