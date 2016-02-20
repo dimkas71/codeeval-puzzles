@@ -1,0 +1,1 @@
+The solution for the challenge 'Read more' is presented. For details see, https://www.codeeval.com/browse/167
