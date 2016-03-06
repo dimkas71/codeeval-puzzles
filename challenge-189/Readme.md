@@ -1,0 +1,1 @@
+Solutiong for the challenge 'Minimal distance' has been added. For details see https://www.codeeval.com/browse/189
